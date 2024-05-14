@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: node
+    name: message-board
+    repo: https://github.com/aCertainProgrammer/message_board
+    plan: free
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: npm start
